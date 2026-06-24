@@ -44,7 +44,7 @@ void DFS(int X, int Y)
     }
 }
 
-int main()
+int main1()
 {
     scanf("%d %d %d", &M, &N, &K);
 
@@ -86,4 +86,6 @@ int main()
     }
 
     printf("%d", result);
+
+    return 0;
 }
